@@ -34,7 +34,6 @@ H = H * (hbar**2 / (2*m*dx**2))
 energy, wave = np.linalg.eigh(H)
 
 print("\nEnergy Eigenvalues")
-print("------------------")
 
 for i in range(n):
 
